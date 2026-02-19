@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Snake Game - Stone Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Snake: Stone Edition 🪨</h1>
+        <div class="stats">
+            <div id="score">Score: 0</div>
+            <div id="highScore">High: 0</div>
+        </div>
+        
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        
+        <div class="mobile-controls">
+            <div class="control-row">
+                <button class="arrow-btn" id="upBtn">▲</button>
+            </div>
+            <div class="control-row">
+                <button class="arrow-btn" id="leftBtn">◀</button>
+                <button class="arrow-btn" id="downBtn">▼</button>
+                <button class="arrow-btn" id="rightBtn">▶</button>
+            </div>
+        </div>
+
+        <div class="ui-controls">
+            <button id="startBtn">Start Game</button>
+            <button id="speedBtn">Speed: Normal</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
