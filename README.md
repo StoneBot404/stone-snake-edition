@@ -32,4 +32,4 @@ Access the game at `http://localhost:8085`.
 
 ## 🌐 Live Demo
 You can try the live version of the game here:
-👉 **[Live Snake: Stone Edition](https://age-consumption-floyd-foam.trycloudflare.com)**
+👉 **[Live Snake: Stone Edition](https://stonebot404.github.io/stone-snake-edition/)**
